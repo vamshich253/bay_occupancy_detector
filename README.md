@@ -4,7 +4,7 @@ Camera-based vehicle detection for parking and EV charging bays, written in
 C++ with OpenCV. The end goal is to draw bay zones on a camera view and report
 which bays are occupied, running on a Raspberry Pi or Jetson.
 
-![Result](docs/result.jpg)
+![Result](docs/result.jpeg)
 
 ## Current status
 
