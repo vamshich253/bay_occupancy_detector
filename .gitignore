@@ -1,0 +1,51 @@
+# ---- Visual Studio cache and personal settings ----
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+ipch/
+
+# ---- Build output ----
+x64/
+x86/
+Win32/
+Debug/
+Release/
+**/x64/
+**/Debug/
+**/Release/
+build/
+
+# ---- Compiled files ----
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+*.iobj
+*.ipdb
+*.tlog
+*.log
+
+# ---- Model files ----
+*.onnx
+*.pt
+*.weights
+!models/yolo11n.onnx
+
+# ---- Generated output and large media ----
+/result.jpg
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ---- Secrets ----
+.env
+*.env
+secrets.*
